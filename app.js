@@ -13,9 +13,10 @@ switch (miComando) {
         break;
     case "crear":
         let tituloNuevaTarea = argumentos[3];
+        let estadoNuevo = argumentos[4];
         let tareaPendiente = {
             titulo : tituloNuevaTarea,
-            estado : "pendiente",
+            estado : estadoNuevo,
         }
         guardarTarea(tareaPendiente);
         break;
