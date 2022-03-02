@@ -37,3 +37,4 @@ switch (miComando) {
         break;
 }
 
+//agregar una nueva funcion que te permita cambiarle el estado a una tarea.
